@@ -90,19 +90,6 @@ nav ul li a:hover::after{
     transition: 0.5s;
 }
 
-.btn {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    color: #d5d1d1;
-    background-image: linear-gradient(45deg, #cf1c1b, #cd1c1b);
-    border-radius: 30px;
-    border-top-right-radius: 0px;
-    padding: 10px 50px;
-    margin-top: 20px;
-    transition: 0.5s;
-}
-
 .btn:hover{
     border-top-right-radius: 30px;
 }
