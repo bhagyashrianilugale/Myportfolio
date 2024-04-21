@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="Header">
+        <div class="container">
+            <nav>
+                <img src="./assets/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark fas" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openMenu()"></i>
+            </nav>
+            <di class="header-text">
+                <h1>Hi, <br>I'm <span>Bhagyashri</span><br> Web Developer</h1>
+                <p><b><span class="main-line">Turning Vision Into Reality With Code And Design.</span></b></p>
+                    As a skilled full-Stack developer, I am dedicated 
+                    to turning</br>ideas into innovative web applications.
+                    Explore my latest projects,</br>
+                    showcasing my expertise in ReactJs and web development.</p>
+                <div>
+                <a href="./assets/BhagyaShri_Ugale_Resume.pdf" download class="btn">Download Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------About section-------------------------->
+    <div id="About">
+               <div class="container">
+                   <div class="row">
+                      <div class="about-col-1">
+                        <img src="./assets/user1img.png">
+                      </div>
+                       <div class="about-col-2">
+                          <h2 class="sub-title">About Me</h2>
+                          <p>Hello! I'm Bhagyashri, a motivated and creative 
+                            MSC graduate turned passionate web developer. 
+                            With a strong foundation in HTML5, CSS3,JS, ReactJs, 
+                            I've transitioned into the dynamic world of web development 
+                            to pursue my passion for crafting innovative 
+                            digital experiences.
+                        </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                                <p class="tab-links"  onclick="openTab('Experience')">Experience</p>
+                                <p class="tab-links"  onclick="openTab('Education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                                 <ul>
+                                    <li><span>Frontend Developement</span><br>HTML5, CSS3, JavaScript, ReactJS</li>
+                                    <li><span>Backend Developement</span><br>NodeJS, ExpressJS</li>
+                                    <li><span>Database</span><br>MongoDB, SQL</li>
+                                </ul>
+                            </div>
+                           <div class="tab-contents" id="Experience">
+                                 <ul>
+                                    <li><span>April - current</span><br>Currently intern at Congorise Infotech</li>
+                                    <li><span>Feb 2024 - March 2024</span><br>Internship at CodSoft</li>
+                                </ul>
+                           </div>
+                            <div class="tab-contents" id="Education">
+                                 <ul>
+                                    <li><span>2020-2022</span><br>Master of science</li>
+                                    <li><span>2017-2020</span><br>Bachelor of scinece</li>
+                                 </ul>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+    </div>
+
+    <!--------------Services Section ----------------------------->
+    <div id="Services">
+          <div class="container">
+               <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Website Clone</h2>
+                        <p>
+                            <ul>
+                                <li>Amazon-Clone</li>
+                                <li>Spotify-Clone</li>
+                            </ul>
+                        </p>
+                        <a href="https://github.com/bhagyashrianilugale">See more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Mini-App</h2>
+                        <p>
+                            <ul>
+                                <li>Currency-Converter App</li>
+                                <li>Simon-says game</li>
+                            </ul>
+                        </p>
+                        <a href="https://github.com/bhagyashrianilugale">See more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-blog"></i>                        
+                        <h2>Functional Websites</h2>
+                        <p>
+                            <ul>
+                                <li>Wanderlust</li>
+                                <li>Jobble</li>
+                            </ul>
+                        </p>
+                            <a href="https://github.com/bhagyashrianilugale">See more</a>
+                    </div>
+                </div>
+         </div>
+
+        <!--------------------------Work Section ----------------------------->
+        <div id="Portfolio">
+            <div class="container">
+                   <h1 class="sub-title"> My Work</h1>
+                    <div class="work-list">
+                          <div class="work">
+                               <img src="./assets/workimg1.png"alt="clone">
+                               <div class="layer">
+                                   <h3>Amazon Clone</h3>
+                                   <p>
+                                      Explore a faithful recreation of Amazon's iconic homepage,
+                                      built with HTML/CSS. Showcase the power of web basics 
+                                      with font-awesome icons and meticulous attention to detail. 
+                                    </p>
+                                   </p>
+                                   <a href="https://bhagyashrianilugale.github.io/Amazon-Clone/"><i class="fa-solid fa-link"></i></a>
+                               </div>
+                          </div>
+                          <div class="work">
+                              <img src="./assets/workimg2.png" alt="wanderlust">
+                              <div class="layer">
+                                <h3>Wanderlust</h3>
+                                <p>
+                                   A vibrant travel platform 
+                                    seamlessly handling listings, authentication.
+                                    Elevate your experience with interactive 
+                                    maps from Mapbox, reviews, and secure uploads 
+                                    for a memorable journey.
+                                </p>
+                                <a href="https://wanderlust-aize.onrender.com/listings"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                          </div>
+                        <div class="work">
+                             <img src="./assets/workimg3.png" alt="jobble">
+                             <div class="layer">
+                                <h3>Jobble</h3>
+                                <p>
+                                    Introducing a sleek job website with tailored 
+                                    dashboards and detailed listings. Packed with features 
+                                    like resume upload, search, and secure login, 
+                                    optimized for mobile devices.
+                                </p>
+                                <a href="https://github.com/bhagyashrianilugale/Jobble.git"><i class="fa-solid fa-link"></i></a>
+                             </div>
+                        </div>
+                        <a href="https://github.com/bhagyashrianilugale" class="bottom-btn">See more</a>
+                    </div>
+            </div>
+        </div>
+
+        <!---------------------------Contact Section ----------------------------->
+        <div id="Contact">
+                  <div class="container">
+                        <div class="row">
+                             <div class="column-left">
+                                   <h1 class="sub-title">Contact Me</h1>
+                                    <p><i class="fa-solid fa-envelope"></i> bhagyashriugale6970@gmail.com</p>
+                                    <p><i class="fa-solid fa-square-phone"></i> +91 8793571782</p>
+                                    <div class="social-icons">
+                                           <a href="https://www.linkedin.com/in/bhagyashri-ugale-689b83299"><i class="fa-brands fa-linkedin"></i></a>
+                                           <a href="https://github.com/bhagyashrianilugale"><i class="fa-brands fa-github"></i></a> 
+                                    </div>
+                                    <a href="./assets/BhagyaShri_Ugale_Resume.pdf" download class="bottom-btn btn2">Download Resume</a>
+                             </div>
+                             <div class="column-right">
+                                   <form name="submit-to-google-sheet">
+                                         <input type="text" name="name" placeholder="Your Name" required>
+                                         <input type="text" name="email" placeholder="Your Email" required>
+                                         <textarea name="message" placeholder="Your Message" rows="6"></textarea>
+                                         <button type="submit"class="bottom-btn btn2">Submit</button>
+                                   </form>
+                                   <span id="msg"></span>
+                            </div>
+                        </div>
+                  </div>
+        </div>
+        <div class="base-line">
+            <p>Made&nbsp; with&nbsp; <i class="fa-solid fa-heart"></i>&nbsp;by&nbsp; Bhagyashri</p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+   
+</body>
+</html>
