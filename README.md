@@ -17,10 +17,6 @@ This portfolio website showcases the work, skills, and experiences of Bhagyashri
 - Interactive form for inquiries
 - Responsive design for seamless viewing across devices
 
-## Usage
-1. Clone the repository: `git clone https://github.com/your-username/portfolio-website.git`
-2. Open the `index.html` file in a web browser.
-
 ## Live Demo
 [Link to live demo if available](https://bhagyashrianilugale.github.io/Myportfolio/)
 
