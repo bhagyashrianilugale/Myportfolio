@@ -315,6 +315,7 @@ nav ul li a:hover::after{
     width: 60%;
     height: 80%;
     margin: 10px 350px;
+    display: none;
 }
 
 .seemore-btn:hover{
