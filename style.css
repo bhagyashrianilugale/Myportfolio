@@ -184,6 +184,10 @@ nav ul li a:hover::after{
 
 /*------------------------Services section-----------------------*/
 
+#Services{
+    padding: 40px 0px;
+}
+
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -226,6 +230,9 @@ nav ul li a:hover::after{
 }
 
 /*------------------------My work section-----------------------*/
+#Portfolio{
+    padding: 40px 0px;
+}
 
 .work-list{
     display: grid;
@@ -315,7 +322,6 @@ nav ul li a:hover::after{
     width: 60%;
     height: 80%;
     margin: 10px 350px;
-    display: none;
 }
 
 .seemore-btn:hover{
@@ -323,6 +329,10 @@ nav ul li a:hover::after{
 } 
 
 /*------------------------------Countact section-----------------------*/
+
+#Contact{
+  padding: 40px 0px;
+}
 
 .column-left{
     flex-basis: 35%;
@@ -387,7 +397,8 @@ nav ul li a:hover::after{
     padding: 25px 0;
     text-align: center;
     font-weight: 300;
-    margin-top: 60px;
+    margin-top: 40px;
+    bottom: -5px;
 }
 
 .base-line i{
