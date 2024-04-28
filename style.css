@@ -185,7 +185,7 @@ nav ul li a:hover::after{
 /*------------------------Services section-----------------------*/
 
 #Services{
-    padding: 40px 0px;
+    padding: 0px 0px;
 }
 
 .services-list{
@@ -331,7 +331,7 @@ nav ul li a:hover::after{
 /*------------------------------Countact section-----------------------*/
 
 #Contact{
-  padding: 40px 0px;
+  padding: 40px 2px;
 }
 
 .column-left{
@@ -398,7 +398,6 @@ nav ul li a:hover::after{
     text-align: center;
     font-weight: 300;
     margin-top: 40px;
-    bottom: -5px;
 }
 
 .base-line i{
