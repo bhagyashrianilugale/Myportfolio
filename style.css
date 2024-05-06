@@ -326,6 +326,7 @@ nav ul li a:hover::after{
 
 .seemore-btn:hover{
     background-color: #cf1c1b;
+    position: fixed;
 } 
 
 /*------------------------------Countact section-----------------------*/
@@ -488,6 +489,7 @@ nav .fas{
         }
         .seemore-btn{
             margin: 2px 60px;
+            position: relative;
         }
 }
 
