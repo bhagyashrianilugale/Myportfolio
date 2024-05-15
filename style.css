@@ -301,33 +301,26 @@ nav ul li a:hover::after{
      height: 100%;
 }
 
-.bottom-btn{
-    margin: 5px auto;
+.work-btn{
+    background-color: transparent;
+    height: 35px;
+    width: 100px;
     border: 1px solid #cd1c1b;
-    padding: 10px 40px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
-    transition: linear 0.5s;
-}
-
-.seemore-btn{
-    text-decoration: none;
-    color: #fff;
-    transition: linear 0.5s;
-    padding: 10px 40px;
-    border-radius: 6px;
     text-align: center;
-    border: 1px solid #cd1c1b;
-    width: 60%;
-    height: 80%;
-    margin: 10px 350px;
+    border-radius: 5px;
+    margin-left: 400px;
 }
 
-.seemore-btn:hover{
-    background-color: #cf1c1b;
-    position: fixed;
-} 
+.work-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.work-btn:hover{
+   background-color: #cd1c1b;
+}
+
+
 
 /*------------------------------Countact section-----------------------*/
 
@@ -415,6 +408,16 @@ nav .fas{
     display: block;
 }
 
+.bottom-btn{
+    margin: 5px auto;
+    border: 1px solid #cd1c1b;
+    padding: 10px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: linear 0.5s;
+}
+
 /*-----------------------------------------CSS for small  screen--------------------------*/
 
 
@@ -487,9 +490,10 @@ nav .fas{
             bottom: 0px;
             font-size: 14px;
         }
-        .seemore-btn{
-            margin: 2px 60px;
-            position: relative;
+
+        .work-btn{
+            margin-left: 100px;
         }
+       
 }
 
