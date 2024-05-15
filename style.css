@@ -303,12 +303,13 @@ nav ul li a:hover::after{
 
 .work-btn{
     background-color: transparent;
-    height: 35px;
+    height: 40px;
     width: 100px;
     border: 1px solid #cd1c1b;
     text-align: center;
     border-radius: 5px;
-    margin-left: 400px;
+    margin-left: 450px;
+    padding: 10px;
 }
 
 .work-btn a{
