@@ -6,7 +6,6 @@ const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
 
 
-console.log(form);
 
 function openTab(tabname) {
     console.log("clicked");
