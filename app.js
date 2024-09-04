@@ -39,7 +39,8 @@ function closeMenu(){
 
 
 form.addEventListener('submit', e => {
-    e.preventDefault()
+    e.preventDefault();
+    console.log(form);
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response =>{
           msg.innerHTML = "Message sent successfully";
